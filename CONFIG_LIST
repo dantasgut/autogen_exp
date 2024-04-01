@@ -1,0 +1,20 @@
+[
+    {
+        "model": "google/flan-t5-base",
+        "model_client_cls": "CustomModelClient",
+        "device": "cuda",
+        "n": 1,
+        "params": {
+            "max_length": 1024
+        }
+    },
+    {
+        "model": "dummy-model-client",
+        "model_client_cls": "DummyModelClient",
+        "device": "cuda",
+        "n": 1,
+        "params": {
+            "max_length": 10
+        }
+    }
+]
