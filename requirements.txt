@@ -1,0 +1,7 @@
+autogen
+pyautogen
+langchain
+transformers
+torch
+sentencepiece
+protobuf

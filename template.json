@@ -1,0 +1,8 @@
+{
+    "name": "meu_template",
+    "start_token": "<start>",
+    "end_token": "<end>",
+    "delimiter_token": "<delimiter>",
+    "input_format": "plain_text",
+    "output_format": "plain_text"
+}
